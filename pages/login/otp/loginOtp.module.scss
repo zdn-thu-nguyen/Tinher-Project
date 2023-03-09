@@ -1,0 +1,17 @@
+@import "../../../styles/variables/variables";
+
+.login__otp {
+  .body__board {
+    color: white;
+    align-self: center;
+    justify-content: flex-start;
+    display: grid;
+    column-gap: 0.25em;
+    grid-template-columns: repeat(6, 0fr);
+    margin-bottom: 2em;
+  }
+  .otp__link {
+    margin: 2.5rem 0 2.25rem;
+    text-align: right;
+  }
+}

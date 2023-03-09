@@ -1,0 +1,13 @@
+@import "../../../../../styles/variables/variables";
+
+.circle {
+  font-size: 2rem;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid $color-neutral-65;
+  background: $color-neutral-20;
+  cursor: pointer;
+  border-radius: 100%;
+  border: none;
+  margin: 2.74rem 0.3rem 0;
+}

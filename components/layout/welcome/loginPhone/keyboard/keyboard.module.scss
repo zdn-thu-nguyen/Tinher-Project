@@ -1,0 +1,49 @@
+@import "../../../../../styles/variables/variables";
+
+.keyboard {
+  background-color: $color-neutral-20;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+  height: 100%;
+  margin-bottom: 4.7rem;
+  .keyboard__row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    .letter__row {
+      display: flex;
+      align-items: center;
+
+      .keyboard__number {
+        background-color: $color-neutral-white;
+        color: #000;
+        font-weight: $fs-title-3;
+        font-size: $fs-body-1;
+        line-height: $lh-2;
+        margin: 0.25rem;
+        border-radius: 0.25rem;
+        padding: 1rem 3.2rem;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+    }
+    .keyboard__delete {
+      margin-right: -1.5rem;
+    }
+    img {
+      position: relative;
+      left: 3rem;
+    }
+  }
+
+  .keyboard__line {
+    width: 40%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+    border-radius: 6.25rem;
+  }
+}

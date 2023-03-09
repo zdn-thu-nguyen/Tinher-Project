@@ -1,0 +1,21 @@
+@import "./variables/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #d4d4da;
+  position: relative;
+  height: 900px;
+}
+
+body {
+  background-color: $color-neutral-white;
+}
+
+.container {
+  padding: 1rem;
+}

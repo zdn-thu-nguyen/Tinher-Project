@@ -1,0 +1,12 @@
+.welcome__header {
+  padding: 0 0 1.5rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__left {
+    img {
+      margin: 0 0.2rem;
+    }
+  }
+}
